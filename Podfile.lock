@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ConsentViewController (5.2.10)
+  - Google-Mobile-Ads-SDK (7.63.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.9.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - PrebidMobile (1.8):
+    - PrebidMobile/core (= 1.8)
+  - PrebidMobile/core (1.8)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromisesObjC (1.2.11)
+  - YieldloveAdIntegration (2.4.1):
+    - Alamofire (~> 4.0)
+    - ConsentViewController (~> 5.2)
+    - Google-Mobile-Ads-SDK (= 7.63)
+    - PrebidMobile (= 1.8)
+    - PromiseKit/CorePromise (~> 6.13)
+
+DEPENDENCIES:
+  - YieldloveAdIntegration (= 2.4.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ConsentViewController
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - PrebidMobile
+    - PromiseKit
+    - PromisesObjC
+    - YieldloveAdIntegration
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ConsentViewController: 4d344dd6e9c9e519b8c644c7e1f8a7830007ee38
+  Google-Mobile-Ads-SDK: a71d6bc14f9cf1f66d686dbdf9ad2091de04059c
+  GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PrebidMobile: 1f196e0b969e98ced724133091f9991303c42bca
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  YieldloveAdIntegration: 9a1cad691a0395fe685301bf05276bf175af5f55
+
+PODFILE CHECKSUM: 7c9ab368c3ea43be88a5fe9117be9078abd90bc1
+
+COCOAPODS: 1.9.3
